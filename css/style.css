@@ -1,0 +1,52 @@
+/*agregar TIPOGRAFIA*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Chivo:ital,wght@0,300;1,100;1,300&display=swap');
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/fondo.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 90%;
+    max-width: 1350px;
+    margin: 8% auto;
+    border: 1px solid  #242c4c;
+    background: rgba(0, 0, 0, 0.384);
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Chivo', sans-serif;
+
+    
+}
+
+p{
+    color: #cdc7d4;
+    font-family: 'Chivo', sans-serif;
+}
+
+button{
+    background: transparent;
+    border: 2px solid #8185c1 ;
+    padding: 12px 30px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background:  #c7b8e4 ;
+    color: #070708;
+    border: 2px solid  #5c54a4  ;
+    border-radius: 16px;
+}
